@@ -116,7 +116,7 @@ public class PocketLimitlessScraperService {
 
             attack.setCost(attackCost);
             attack.setName(attackName);
-            attack.setPower(power);  
+            attack.setPower(power);
             attack.setEffect(attackEffect);
             attacks.add(attack);
         }
