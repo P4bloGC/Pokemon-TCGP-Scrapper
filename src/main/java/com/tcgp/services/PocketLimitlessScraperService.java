@@ -52,6 +52,7 @@ public class PocketLimitlessScraperService {
     private PokemonCard scrapeCard(String url) throws IOException {
         Document doc = Jsoup.connect(url).get();
         String cardType = doc.selectFirst(".card-text-type").text().split("-")[0].trim();
+        String cardSubType = doc.selectFirst(".card-text-type").text().split("-")[1].trim();
 
         // Crear el modelo de la carta
         PokemonCard card = new PokemonCard();
@@ -74,9 +75,11 @@ public class PocketLimitlessScraperService {
         if(cardType.equals("Trainer")){
             card.setHp(null);
             card.setEffect(extractCardEffect(doc));
+            card.setCardSubType(cardSubType);
         }else{
             card.setHp(extractHp(doc));
             card.setEffect(null);
+            card.setCardSubType(null);
         }
 
         return card;
@@ -173,25 +176,14 @@ public class PocketLimitlessScraperService {
         return null;
     }
 
-    private Integer extractStage(Document doc) {
+    private String extractStage(Document doc) {
         Element titleElement = doc.selectFirst(".card-text-type");
         if (titleElement != null) {
             String fullText = titleElement.text();
             String[] parts = fullText.split(" - ");
             if (parts.length > 1) {
                 String stageStr = parts[1].trim();
-
-                if(stageStr.equals("Basic")){
-                    return 1;
-                }
-
-                if(stageStr.equals("Stage 1")){
-                    return 2;
-                }
-
-                if(stageStr.equals("Stage 2")){
-                    return 3;
-                }
+                return stageStr;
 
             }
         }

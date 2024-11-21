@@ -13,10 +13,11 @@ import java.util.List;
 public class PokemonCard {
     private String cardNumber;
     private String cardType;
+    private String cardSubType;
     private String set;
     private String pack;
     private String name;
-    private Integer stage;
+    private String stage;
     private String evolvesFrom;
     private String type;
     private String hp;
