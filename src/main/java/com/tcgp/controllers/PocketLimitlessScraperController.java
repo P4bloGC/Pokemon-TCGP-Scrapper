@@ -21,7 +21,7 @@ public class PocketLimitlessScraperController {
     }
 
     @GetMapping("/cards")
-    @Operation(summary = "Endpoint para obtener cartas de Pokémon de una lista de colecciones")
+    @Operation(summary = "Endpoint para obtener cartas de Pokémon en formarto JSON")
     public List<PokemonCard> scrapeCards() throws IOException {
             return scraperService.scrapeAllCards();
     }

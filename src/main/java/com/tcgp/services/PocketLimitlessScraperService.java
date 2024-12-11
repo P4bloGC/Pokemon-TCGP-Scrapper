@@ -1,6 +1,7 @@
 package com.tcgp.services;
 import com.tcgp.models.Ability;
 import com.tcgp.models.Attack;
+import com.tcgp.models.Cost;
 import com.tcgp.models.PokemonCard;
 import lombok.extern.log4j.Log4j;
 import org.jsoup.Jsoup;
@@ -53,11 +54,14 @@ public class PocketLimitlessScraperService {
         Document doc = Jsoup.connect(url).get();
         String cardType = doc.selectFirst(".card-text-type").text().split("-")[0].trim();
         String cardSubType = doc.selectFirst(".card-text-type").text().split("-")[1].trim();
+        String cardName = doc.selectFirst(".card-text-name").text();
+
+        log.info("Obteniendo la carta: " + cardName);
 
         // Crear el modelo de la carta
         PokemonCard card = new PokemonCard();
         card.setCardNumber(extractCardNumber(doc));
-        card.setName(doc.selectFirst(".card-text-name").text());
+        card.setName(cardName);
         card.setSet(extractSet(doc));
         card.setPack(extractPack(doc));
         card.setRarity(extractRarity(doc));

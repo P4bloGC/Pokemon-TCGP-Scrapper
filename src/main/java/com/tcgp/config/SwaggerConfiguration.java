@@ -20,7 +20,7 @@ public class SwaggerConfiguration {
                         .termsOfService("http://swagger.io/terms/")
                         .contact(new Contact()
                                 .name("Pablo González")
-                                .url("https://github.com/P4bloGC/Pokemon-TCGP-Scrappe")
+                                .url("https://github.com/P4bloGC/Pokemon-TCGP-Scrapper")
                                 .email("pablo.gc662@gmail.com"))
                         .license(new License()
                                 .name("Apache 2.0")
