@@ -10,7 +10,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Attack {
-    private String cost;
+    private List<Energy> energyCost;
     private String name;
     private String effect;
     private String power;

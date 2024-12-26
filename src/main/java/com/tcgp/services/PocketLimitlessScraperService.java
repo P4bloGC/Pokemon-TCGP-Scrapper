@@ -1,8 +1,5 @@
 package com.tcgp.services;
-import com.tcgp.models.Ability;
-import com.tcgp.models.Attack;
-import com.tcgp.models.Cost;
-import com.tcgp.models.PokemonCard;
+import com.tcgp.models.*;
 import lombok.extern.log4j.Log4j;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -12,7 +9,9 @@ import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Service
 @Log4j
@@ -20,8 +19,21 @@ public class PocketLimitlessScraperService {
 
     private static final List<String> BASE_URLS = List.of(
             "https://pocket.limitlesstcg.com/cards/A1/",
-            "https://pocket.limitlesstcg.com/cards/P-A/"
+            "https://pocket.limitlesstcg.com/cards/P-A/",
+            "https://pocket.limitlesstcg.com/cards/A1a/"
     );
+
+    private static final Map<String, String> energyMap = new HashMap<String, String>() {{
+        put("G", "Grass");
+        put("C", "Colorless");
+        put("W", "Water");
+        put("R", "Fire");
+        put("L", "Lightning");
+        put("P", "Psychic");
+        put("D", "Darkness");
+        put("F", "Fighting");
+        put("M", "Metal");
+    }};
 
     public List<PokemonCard> scrapeAllCards() {
         List<PokemonCard> allCards = new ArrayList<>();
@@ -48,7 +60,6 @@ public class PocketLimitlessScraperService {
 
         return allCards;
     }
-
 
     private PokemonCard scrapeCard(String url) throws IOException {
         Document doc = Jsoup.connect(url).get();
@@ -107,6 +118,24 @@ public class PocketLimitlessScraperService {
         return abilities;
     }
 
+    private List<Energy> extractEnergys(String attackCost){
+        List<Energy> energyElements = new ArrayList<>();
+        String[] parts = attackCost.split("");
+
+        for(String part : parts){
+            Energy energy = new Energy();
+            energy.setEnergyType(this.getEnergy(part));
+            energyElements.add(energy);
+        }
+
+        return energyElements;
+
+    }
+
+    private String getEnergy(String text) {
+        return energyMap.getOrDefault(text, null);
+    }
+
     private List<Attack> extractAttacks(Document doc) {
         List<Attack> attacks = new ArrayList<>();
         Elements attackElements = doc.select(".card-text-attack");
@@ -120,8 +149,7 @@ public class PocketLimitlessScraperService {
             String attackName = attackInfo.replaceFirst("^" + attackCost, "").trim();
             attackName = attackName.replaceAll("(\\d+[\\+\\-x]?)$", "").trim();
             String attackEffect = attackElement.selectFirst(".card-text-attack-effect").text().trim();
-
-            attack.setCost(attackCost);
+            attack.setEnergyCost(this.extractEnergys(attackCost));
             attack.setName(attackName);
             attack.setPower(power);
             attack.setEffect(attackEffect);
