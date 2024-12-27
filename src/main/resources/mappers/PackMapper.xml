@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tcgp.mappers.PackMapper">
+    <insert id="insertPack" parameterType="com.tcgp.models.Pack">
+        INSERT INTO packs (id, set_id, pack_name)
+        VALUES (#{id}, #{setId}, #{packName})
+    </insert>
+</mapper>
