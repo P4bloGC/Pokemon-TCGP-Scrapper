@@ -1,4 +1,5 @@
 package com.tcgp.services;
+
 import com.tcgp.models.*;
 import lombok.extern.log4j.Log4j;
 import org.jsoup.Jsoup;
@@ -20,23 +21,24 @@ public class PocketLimitlessScraperService {
     private static final List<String> BASE_URLS = List.of(
             "https://pocket.limitlesstcg.com/cards/A1/",
             "https://pocket.limitlesstcg.com/cards/P-A/",
-            "https://pocket.limitlesstcg.com/cards/A1a/"
-    );
+            "https://pocket.limitlesstcg.com/cards/A1a/");
 
-    private static final Map<String, String> energyMap = new HashMap<String, String>() {{
-        put("G", "Grass");
-        put("C", "Colorless");
-        put("W", "Water");
-        put("R", "Fire");
-        put("L", "Lightning");
-        put("P", "Psychic");
-        put("D", "Darkness");
-        put("F", "Fighting");
-        put("M", "Metal");
-    }};
+    private static final Map<String, String> energyMap = new HashMap<String, String>() {
+        {
+            put("G", "Grass");
+            put("C", "Colorless");
+            put("W", "Water");
+            put("R", "Fire");
+            put("L", "Lightning");
+            put("P", "Psychic");
+            put("D", "Darkness");
+            put("F", "Fighting");
+            put("M", "Metal");
+        }
+    };
 
-    public List<PokemonCard> scrapeAllCards() {
-        List<PokemonCard> allCards = new ArrayList<>();
+    public List<Card> scrapeAllCards() {
+        List<Card> allCards = new ArrayList<>();
 
         for (String baseUrl : BASE_URLS) {
             try {
@@ -45,14 +47,7 @@ public class PocketLimitlessScraperService {
 
                 log.info("Total de cartas en " + baseUrl + ": " + totalCards);
 
-                for (int i = 1; i <= totalCards; i++) {
-                    String url = baseUrl + i;
-                    try {
-                        allCards.add(scrapeCard(url));
-                    } catch (Exception e) {
-                        log.error("Error al procesar la carta en " + url + ": " + e.getMessage());
-                    }
-                }
+                scrapeCardsFromBaseUrl(baseUrl, totalCards, allCards);
             } catch (IOException e) {
                 log.error("Error al conectar con la base " + baseUrl + ": " + e.getMessage());
             }
@@ -61,7 +56,18 @@ public class PocketLimitlessScraperService {
         return allCards;
     }
 
-    private PokemonCard scrapeCard(String url) throws IOException {
+    private void scrapeCardsFromBaseUrl(String baseUrl, int totalCards, List<Card> allCards) {
+        for (int i = 1; i <= totalCards; i++) {
+            String url = baseUrl + i;
+            try {
+                allCards.add(scrapeCard(url));
+            } catch (Exception e) {
+                log.error("Error al procesar la carta en " + url + ": " + e.getMessage());
+            }
+        }
+    }
+
+    private Card scrapeCard(String url) throws IOException {
         Document doc = Jsoup.connect(url).get();
         String cardType = doc.selectFirst(".card-text-type").text().split("-")[0].trim();
         String cardSubType = doc.selectFirst(".card-text-type").text().split("-")[1].trim();
@@ -70,7 +76,7 @@ public class PocketLimitlessScraperService {
         log.info("Obteniendo la carta: " + cardName);
 
         // Crear el modelo de la carta
-        PokemonCard card = new PokemonCard();
+        Card card = new Card();
         card.setCardNumber(extractCardNumber(doc));
         card.setName(cardName);
         card.setSet(extractSet(doc));
@@ -87,11 +93,11 @@ public class PocketLimitlessScraperService {
         card.setAttacks(extractAttacks(doc));
         card.setImageUrl(extractImage(doc));
 
-        if(cardType.equals("Trainer")){
+        if (cardType.equals("Trainer")) {
             card.setHp(null);
             card.setEffect(extractCardEffect(doc));
             card.setCardSubType(cardSubType);
-        }else{
+        } else {
             card.setHp(extractHp(doc));
             card.setEffect(null);
             card.setCardSubType(null);
@@ -118,11 +124,11 @@ public class PocketLimitlessScraperService {
         return abilities;
     }
 
-    private List<Energy> extractEnergys(String attackCost){
+    private List<Energy> extractEnergys(String attackCost) {
         List<Energy> energyElements = new ArrayList<>();
         String[] parts = attackCost.split("");
 
-        for(String part : parts){
+        for (String part : parts) {
             Energy energy = new Energy();
             energy.setEnergyType(this.getEnergy(part));
             energyElements.add(energy);
@@ -230,7 +236,7 @@ public class PocketLimitlessScraperService {
         return null;
     }
 
-    public String extractSet(Document doc){
+    public String extractSet(Document doc) {
         return doc.selectFirst(".prints-current-details .text-lg").text().trim();
     }
 
@@ -283,7 +289,7 @@ public class PocketLimitlessScraperService {
                 String cardsPart = parts[1].trim();
                 String totalCards = cardsPart.replaceAll("[^0-9]", "");
                 return Integer.parseInt(totalCards);
-            }else{
+            } else {
                 String totalCards = infoBoxLine.text().replaceAll("[^0-9]", "");
                 return Integer.parseInt(totalCards);
             }

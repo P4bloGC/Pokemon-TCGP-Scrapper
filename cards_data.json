@@ -17,7 +17,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Vine Whip",
         "effect": "",
         "power": "40",
@@ -45,7 +52,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GCC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Razor Leaf",
         "effect": "",
         "power": "60",
@@ -73,7 +90,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GGCC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Mega Drain",
         "effect": "Heal 30 damage from this Pokémon.",
         "power": "80",
@@ -101,14 +131,37 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GCC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Razor Leaf",
         "effect": "",
         "power": "60",
         "variableDamage": null
       },
       {
-        "cost": "GGCC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Giant Bloom",
         "effect": "Heal 30 damage from this Pokémon.",
         "power": "100",
@@ -136,7 +189,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Find a Friend",
         "effect": "Put 1 random [G] Pokémon from your deck into your hand.",
         "power": null,
@@ -164,7 +221,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Bug Bite",
         "effect": "",
         "power": "30",
@@ -197,7 +261,17 @@
     ],
     "attacks": [
       {
-        "cost": "GCC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Gust",
         "effect": "",
         "power": "60",
@@ -225,7 +299,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Sting",
         "effect": "",
         "power": "20",
@@ -253,7 +331,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Bug Bite",
         "effect": "",
         "power": "30",
@@ -281,7 +363,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Sharp Sting",
         "effect": "",
         "power": "70",
@@ -309,7 +395,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Ram",
         "effect": "",
         "power": "20",
@@ -337,7 +427,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Drool",
         "effect": "",
         "power": "40",
@@ -365,7 +462,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GGC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Soothing Scent",
         "effect": "Your opponent's Active Pokémon is now Asleep.",
         "power": "80",
@@ -393,7 +500,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Scratch",
         "effect": "",
         "power": "30",
@@ -421,7 +535,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GGC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Slash",
         "effect": "",
         "power": "80",
@@ -449,7 +573,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Tackle",
         "effect": "",
         "power": "20",
@@ -477,7 +605,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Poison Powder",
         "effect": "Your opponent's Active Pokémon is now Poisoned.",
         "power": "30",
@@ -505,7 +637,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Vine Whip",
         "effect": "",
         "power": "20",
@@ -533,7 +669,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Razor Leaf",
         "effect": "",
         "power": "40",
@@ -566,7 +709,14 @@
     ],
     "attacks": [
       {
-        "cost": "GC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Vine Whip",
         "effect": "",
         "power": "60",
@@ -594,7 +744,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Seed Bomb",
         "effect": "",
         "power": "20",
@@ -622,7 +776,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Stomp",
         "effect": "Flip a coin. If heads, this attack does 30 more damage.",
         "power": "30+",
@@ -650,7 +808,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Tropical Swing",
         "effect": "Flip a coin. If heads, this attack does 40 more damage.",
         "power": "40+",
@@ -678,7 +840,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Absorb",
         "effect": "Heal 10 damage from this Pokémon.",
         "power": "40",
@@ -706,7 +875,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Sharp Scythe",
         "effect": "",
         "power": "30",
@@ -734,7 +907,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GG",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Double Horn",
         "effect": "Flip 2 coins. This attack does 50 damage for each heads.",
         "power": "50x",
@@ -762,7 +942,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Attach",
         "effect": "",
         "power": "10",
@@ -790,7 +974,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Rolling Tackle",
         "effect": "",
         "power": "40",
@@ -818,7 +1006,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Blot",
         "effect": "Heal 10 damage from this Pokémon.",
         "power": "10",
@@ -846,7 +1038,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GG",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Leaf Supply",
         "effect": "Take a [G] Energy from your Energy Zone and attach it to 1 of your Benched [G] Pokémon.",
         "power": "50",
@@ -874,7 +1073,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Surprise Attack",
         "effect": "Flip a coin. If tails, this attack does nothing.",
         "power": "40",
@@ -902,7 +1105,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GCC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Razor Leaf",
         "effect": "",
         "power": "70",
@@ -930,7 +1143,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "R",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Ember",
         "effect": "Discard a [R] Energy from this Pokémon.",
         "power": "30",
@@ -958,7 +1175,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Fire Claws",
         "effect": "",
         "power": "60",
@@ -986,7 +1213,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RRCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Fire Spin",
         "effect": "Discard 2 [R] Energy from this Pokémon.",
         "power": "150",
@@ -1014,14 +1254,37 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Slash",
         "effect": "",
         "power": "60",
         "variableDamage": null
       },
       {
-        "cost": "RRCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Crimson Storm",
         "effect": "Discard 2 [R] Energy from this Pokémon.",
         "power": "200",
@@ -1049,7 +1312,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Tail Whip",
         "effect": "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
         "power": null,
@@ -1077,7 +1344,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RR",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Flamethrower",
         "effect": "Discard a [R] Energy from this Pokémon.",
         "power": "90",
@@ -1105,7 +1379,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Bite",
         "effect": "",
         "power": "20",
@@ -1133,7 +1414,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RRC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Heat Tackle",
         "effect": "This Pokémon also does 20 damage to itself.",
         "power": "100",
@@ -1161,7 +1452,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RRC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Inferno Onrush",
         "effect": "This Pokémon also does 20 damage to itself.",
         "power": "120",
@@ -1189,7 +1490,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "R",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Flare",
         "effect": "",
         "power": "20",
@@ -1217,7 +1522,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "R",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Fire Mane",
         "effect": "",
         "power": "40",
@@ -1245,7 +1554,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RR",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Magma Punch",
         "effect": "",
         "power": "50",
@@ -1273,7 +1589,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Flamethrower",
         "effect": "Discard 1 [R] Energy from this Pokémon.",
         "power": "110",
@@ -1301,7 +1627,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Sky Attack",
         "effect": "Flip a coin. If tails, this attack does nothing.",
         "power": "130",
@@ -1329,14 +1665,28 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "R",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Inferno Dance",
         "effect": "Flip 3 coins. Take an amount of [R] Energy from your Energy Zone equal to the number of heads and attach it to your Benched [R] Pokémon in any way you like.",
         "power": null,
         "variableDamage": null
       },
       {
-        "cost": "RCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Heat Blast",
         "effect": "",
         "power": "70",
@@ -1364,7 +1714,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "R",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Combustion",
         "effect": "",
         "power": "30",
@@ -1392,7 +1746,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "R",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Scratch",
         "effect": "",
         "power": "20",
@@ -1420,7 +1778,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Fire Claws",
         "effect": "",
         "power": "60",
@@ -1448,7 +1813,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Gnaw",
         "effect": "",
         "power": "10",
@@ -1476,7 +1845,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RCCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Fire Blast",
         "effect": "Discard a [R] Energy from this Pokémon.",
         "power": "130",
@@ -1504,7 +1886,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "W",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Water Gun",
         "effect": "",
         "power": "20",
@@ -1532,7 +1918,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Wave Splash",
         "effect": "",
         "power": "40",
@@ -1560,7 +1953,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WWC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Hydro Pump",
         "effect": "If this Pokémon has at least 2 extra [W] Energy attached, this attack does 60 more damage.",
         "power": "80+",
@@ -1588,14 +1991,31 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Surf",
         "effect": "",
         "power": "40",
         "variableDamage": null
       },
       {
-        "cost": "WWC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Hydro Bazooka",
         "effect": "If this Pokémon has at least 2 extra [W] Energy attached, this attack does 60 more damage.",
         "power": "100+",
@@ -1623,7 +2043,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Headache",
         "effect": "Your opponent can't use any Supporter cards from their hand during their next turn.",
         "power": "10",
@@ -1651,7 +2075,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WW",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Aqua Edge",
         "effect": "",
         "power": "70",
@@ -1679,7 +2110,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Razor Fin",
         "effect": "",
         "power": "10",
@@ -1707,7 +2142,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Knuckle Punch",
         "effect": "",
         "power": "40",
@@ -1740,7 +2182,17 @@
     ],
     "attacks": [
       {
-        "cost": "WCC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Mega Punch",
         "effect": "",
         "power": "80",
@@ -1768,7 +2220,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "W",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Gentle Slap",
         "effect": "",
         "power": "20",
@@ -1796,7 +2252,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Poison Tentacles",
         "effect": "Your opponent's Active Pokémon is now Poisoned.",
         "power": "50",
@@ -1824,7 +2287,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Headbutt",
         "effect": "",
         "power": "30",
@@ -1852,7 +2322,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WWW",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Surf",
         "effect": "",
         "power": "90",
@@ -1880,7 +2360,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "W",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Tongue Slap",
         "effect": "",
         "power": "20",
@@ -1913,7 +2397,17 @@
     ],
     "attacks": [
       {
-        "cost": "WWC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Surf",
         "effect": "",
         "power": "70",
@@ -1941,7 +2435,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Vise Grip",
         "effect": "",
         "power": "40",
@@ -1969,7 +2470,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WWC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "KO Crab",
         "effect": "Flip 2 coins. If both of them are heads, this attack does 80 more damage.",
         "power": "80+",
@@ -1997,7 +2508,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "W",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Water Gun",
         "effect": "",
         "power": "20",
@@ -2025,7 +2540,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WWW",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Water Arrow",
         "effect": "This attack does 50 damage to 1 of your opponent's Pokémon.",
         "power": null,
@@ -2053,7 +2578,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Flop",
         "effect": "",
         "power": "10",
@@ -2081,7 +2610,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "W",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Horn Hazard",
         "effect": "Flip a coin. If tails, this attack does nothing.",
         "power": "80",
@@ -2109,7 +2642,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "W",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Smack",
         "effect": "",
         "power": "20",
@@ -2137,7 +2674,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "W",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Wave Splash",
         "effect": "",
         "power": "40",
@@ -2165,7 +2706,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WW",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Hydro Splash",
         "effect": "",
         "power": "90",
@@ -2193,7 +2741,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Splash",
         "effect": "",
         "power": "10",
@@ -2221,7 +2773,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WWWW",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Hyper Beam",
         "effect": "Discard a random Energy from your opponent's Active Pokémon.",
         "power": "100",
@@ -2249,7 +2814,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "W",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Hydro Pump",
         "effect": "If this Pokémon has at least 3 extra [W] Energy attached, this attack does 70 more damage.",
         "power": "20+",
@@ -2277,7 +2846,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WCC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Bubble Drain",
         "effect": "Heal 30 damage from this Pokémon.",
         "power": "60",
@@ -2305,7 +2884,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "W",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Water Gun",
         "effect": "",
         "power": "40",
@@ -2333,7 +2916,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WCC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Ancient Whirlpool",
         "effect": "During your opponent's next turn, the Defending Pokémon can't attack.",
         "power": "70",
@@ -2361,7 +2954,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WWC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Ice Beam",
         "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
         "power": "60",
@@ -2389,14 +2992,31 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Ice Wing",
         "effect": "",
         "power": "40",
         "variableDamage": null
       },
       {
-        "cost": "WWW",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Blizzard",
         "effect": "This attack also does 10 damage to each of your opponent's Benched Pokémon.",
         "power": "80",
@@ -2424,7 +3044,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Flap",
         "effect": "",
         "power": "30",
@@ -2452,7 +3079,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Wing Attack",
         "effect": "",
         "power": "70",
@@ -2480,7 +3117,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Flop",
         "effect": "",
         "power": "10",
@@ -2508,7 +3149,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Water Drip",
         "effect": "",
         "power": "30",
@@ -2541,7 +3186,14 @@
     ],
     "attacks": [
       {
-        "cost": "WC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Mist Slash",
         "effect": "",
         "power": "60",
@@ -2569,7 +3221,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "W",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Rain Splash",
         "effect": "",
         "power": "30",
@@ -2597,7 +3253,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Second Strike",
         "effect": "If your opponent's Active Pokémon has damage on it, this attack does 60 more damage.",
         "power": "10+",
@@ -2625,7 +3288,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Ram",
         "effect": "",
         "power": "10",
@@ -2653,7 +3320,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Powder Snow",
         "effect": "Your opponent's Active Pokémon is now Asleep.",
         "power": "40",
@@ -2681,7 +3355,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Gnaw",
         "effect": "",
         "power": "20",
@@ -2709,7 +3387,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "LLL",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Thunderbolt",
         "effect": "Discard all Energy from this Pokémon.",
         "power": "140",
@@ -2737,7 +3425,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "LL",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Circle Circuit",
         "effect": "This attack does 30 damage for each of your Benched [L] Pokémon.",
         "power": "30x",
@@ -2765,7 +3460,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Lightning Ball",
         "effect": "",
         "power": "20",
@@ -2798,7 +3497,20 @@
     ],
     "attacks": [
       {
-        "cost": "LCCC",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Spinning Attack",
         "effect": "",
         "power": "60",
@@ -2826,7 +3538,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Tackle",
         "effect": "",
         "power": "20",
@@ -2854,7 +3570,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "LL",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Electro Ball",
         "effect": "",
         "power": "70",
@@ -2882,7 +3605,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "LL",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Thunder Punch",
         "effect": "Flip a coin. If heads, this attack does 40 more damage. If tails, this Pokémon also does 20 damage to itself.",
         "power": "40+",
@@ -2910,7 +3640,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "LC",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Pin Missile",
         "effect": "Flip 4 coins. This attack does 40 damage for each heads.",
         "power": "40x",
@@ -2938,7 +3675,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "LLC",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Raging Thunder",
         "effect": "This attack also does 30 damage to 1 of your Benched Pokémon.",
         "power": "100",
@@ -2966,14 +3713,28 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Peck",
         "effect": "",
         "power": "20",
         "variableDamage": null
       },
       {
-        "cost": "LLL",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Thundering Hurricane",
         "effect": "Flip 4 coins. This attack does 50 damage for each heads.",
         "power": "50x",
@@ -3001,7 +3762,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Zap Kick",
         "effect": "",
         "power": "20",
@@ -3029,7 +3794,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Thunder Spear",
         "effect": "This attack does 30 damage to 1 of your opponent's Pokémon.",
         "power": null,
@@ -3057,7 +3826,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Tiny Charge",
         "effect": "",
         "power": "30",
@@ -3085,7 +3858,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Head Bolt",
         "effect": "",
         "power": "40",
@@ -3113,7 +3890,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "LLC",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Thunder Fang",
         "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
         "power": "80",
@@ -3141,7 +3928,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Tail Whap",
         "effect": "",
         "power": "20",
@@ -3169,7 +3960,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Quick Attack",
         "effect": "Flip a coin. If heads, this attack does 40 more damage.",
         "power": "40+",
@@ -3197,7 +3995,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "LL",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Thunder Shock",
         "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
         "power": "30",
@@ -3225,7 +4030,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Slap",
         "effect": "",
         "power": "20",
@@ -3253,7 +4062,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Magical Shot",
         "effect": "",
         "power": "40",
@@ -3281,7 +4094,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Teleport",
         "effect": "Switch this Pokémon with 1 of your Benched Pokémon.",
         "power": null,
@@ -3309,7 +4126,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PCC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Super Psy Bolt",
         "effect": "",
         "power": "60",
@@ -3337,7 +4164,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PCC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Psychic",
         "effect": "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
         "power": "60+",
@@ -3365,7 +4202,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Tail Whap",
         "effect": "",
         "power": "30",
@@ -3393,7 +4237,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PPC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Super Psy Bolt",
         "effect": "",
         "power": "80",
@@ -3421,7 +4275,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Suffocating Gas",
         "effect": "",
         "power": "20",
@@ -3449,7 +4307,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Will-O-Wisp",
         "effect": "",
         "power": "--30",
@@ -3477,7 +4339,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Bother",
         "effect": "Your opponent can't use any Supporter cards from their hand during their next turn.",
         "power": "50",
@@ -3510,7 +4376,17 @@
     ],
     "attacks": [
       {
-        "cost": "PPP",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Spooky Shot",
         "effect": "",
         "power": "100",
@@ -3538,7 +4414,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Mumble",
         "effect": "",
         "power": "30",
@@ -3571,7 +4454,17 @@
     ],
     "attacks": [
       {
-        "cost": "PPC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Psypunch",
         "effect": "",
         "power": "50",
@@ -3599,7 +4492,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Barrier Attack",
         "effect": "During your opponent's next turn, this Pokémon takes -20 damage from attacks.",
         "power": "30",
@@ -3627,7 +4527,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Psychic",
         "effect": "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
         "power": "30+",
@@ -3655,7 +4562,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PPCC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Power Blast",
         "effect": "Discard 2 [P] Energy from this Pokémon.",
         "power": "120",
@@ -3683,14 +4603,34 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Psychic Sphere",
         "effect": "",
         "power": "50",
         "variableDamage": null
       },
       {
-        "cost": "PPCC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Psydrive",
         "effect": "Discard 2 [P] Energy from this Pokémon.",
         "power": "150",
@@ -3718,7 +4658,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Ram",
         "effect": "",
         "power": "10",
@@ -3746,7 +4690,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Smack",
         "effect": "",
         "power": "30",
@@ -3779,7 +4730,17 @@
     ],
     "attacks": [
       {
-        "cost": "PPC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Psyshot",
         "effect": "",
         "power": "60",
@@ -3807,7 +4768,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Gnaw",
         "effect": "",
         "power": "10",
@@ -3835,7 +4800,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Heart Stamp",
         "effect": "",
         "power": "60",
@@ -3863,7 +4835,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PCC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Mega Punch",
         "effect": "",
         "power": "50",
@@ -3891,7 +4873,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PPCC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Double Lariat",
         "effect": "Flip 2 coins. This attack does 100 damage for each heads.",
         "power": "100x",
@@ -3919,7 +4914,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "F",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Scratch",
         "effect": "",
         "power": "10",
@@ -3947,7 +4946,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FF",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Slash",
         "effect": "",
         "power": "70",
@@ -3975,7 +4981,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "F",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Mud-Slap",
         "effect": "",
         "power": "-20",
@@ -4003,7 +5013,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "F",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Dig",
         "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon.",
         "power": "40",
@@ -4031,7 +5045,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "F",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Low Kick",
         "effect": "",
         "power": "20",
@@ -4059,7 +5077,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FF",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Fight Back",
         "effect": "If this Pokémon has damage on it, this attack does 60 more damage.",
         "power": "40+",
@@ -4087,7 +5112,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "F",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Knuckle Punch",
         "effect": "",
         "power": "20",
@@ -4115,7 +5144,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FF",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Strength",
         "effect": "",
         "power": "50",
@@ -4143,7 +5179,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FFF",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Seismic Toss",
         "effect": "",
         "power": "100",
@@ -4171,7 +5217,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FFF",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Mega Punch",
         "effect": "",
         "power": "120",
@@ -4199,7 +5255,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "F",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Tackle",
         "effect": "",
         "power": "20",
@@ -4227,7 +5287,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FCC",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Rollout",
         "effect": "",
         "power": "70",
@@ -4255,7 +5325,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FCCC",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Double-Edge",
         "effect": "This Pokémon also does 50 damage to itself.",
         "power": "-150",
@@ -4283,7 +5366,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FFF",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Land Crush",
         "effect": "",
         "power": "70",
@@ -4311,7 +5404,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Growl",
         "effect": "During your opponent's next turn, attacks used by the Defending Pokémon do -20 damage.",
         "power": null,
@@ -4339,7 +5436,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "F",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Bone Beatdown",
         "effect": "",
         "power": "40",
@@ -4367,7 +5468,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FF",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Bonemerang",
         "effect": "Flip 2 coins. This attack does 80 damage for each heads.",
         "power": "80x",
@@ -4395,7 +5503,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "F",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Stretch Kick",
         "effect": "This attack does 30 damage to 1 of your opponent's Benched Pokémon.",
         "power": null,
@@ -4423,7 +5535,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "F",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Jab",
         "effect": "",
         "power": "30",
@@ -4451,7 +5567,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FFC",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Tackle",
         "effect": "",
         "power": "60",
@@ -4479,7 +5605,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FFFC",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Horn Drill",
         "effect": "",
         "power": "100",
@@ -4507,7 +5646,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "F",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Shell Attack",
         "effect": "",
         "power": "40",
@@ -4535,7 +5678,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "F",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Leech Life",
         "effect": "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
         "power": "50",
@@ -4563,7 +5710,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Pound",
         "effect": "",
         "power": "20",
@@ -4591,7 +5742,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Spiral Kick",
         "effect": "",
         "power": "40",
@@ -4619,7 +5774,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FC",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Knuckle Punch",
         "effect": "",
         "power": "30",
@@ -4647,7 +5809,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FFC",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Knock Back",
         "effect": "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
         "power": "70",
@@ -4675,7 +5847,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "D",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          }
+        ],
         "name": "Bite",
         "effect": "",
         "power": "20",
@@ -4703,7 +5879,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "DC",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Corner",
         "effect": "During your opponent's next turn, the Defending Pokémon can't retreat.",
         "power": "60",
@@ -4731,7 +5914,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "D",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          }
+        ],
         "name": "Call for Family",
         "effect": "Put 1 random Nidoran♂ from your deck onto your Bench.",
         "power": null,
@@ -4759,7 +5946,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "D",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          }
+        ],
         "name": "Bite",
         "effect": "",
         "power": "30",
@@ -4787,7 +5978,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "DDC",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          },
+          {
+            "energyType": "Darkness"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Lovestrike",
         "effect": "This attack does 50 more damage for each of your Benched Nidoking.",
         "power": "80+",
@@ -4815,7 +6016,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "D",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          }
+        ],
         "name": "Peck",
         "effect": "",
         "power": "20",
@@ -4843,7 +6048,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "DC",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Horn Attack",
         "effect": "",
         "power": "40",
@@ -4871,7 +6083,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "DDC",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          },
+          {
+            "energyType": "Darkness"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Poison Horn",
         "effect": "Your opponent's Active Pokémon is now Poisoned.",
         "power": "90",
@@ -4899,7 +6121,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Glide",
         "effect": "",
         "power": "10",
@@ -4927,7 +6153,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Wing Attack",
         "effect": "",
         "power": "40",
@@ -4955,7 +6185,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "D",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          }
+        ],
         "name": "Poison Gas",
         "effect": "Your opponent's Active Pokémon is now Poisoned.",
         "power": "10",
@@ -4983,7 +6217,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "DDC",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          },
+          {
+            "energyType": "Darkness"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Venoshock",
         "effect": "If your opponent's Active Pokémon is Poisoned, this attack does 50 more damage.",
         "power": "70+",
@@ -5011,7 +6255,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "D",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          }
+        ],
         "name": "Suffocating Gas",
         "effect": "",
         "power": "20",
@@ -5044,7 +6292,11 @@
     ],
     "attacks": [
       {
-        "cost": "D",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          }
+        ],
         "name": "Tackle",
         "effect": "",
         "power": "30",
@@ -5072,7 +6324,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "M",
+        "energyCost": [
+          {
+            "energyType": "Metal"
+          }
+        ],
         "name": "Crunch",
         "effect": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon.",
         "power": "20",
@@ -5100,7 +6356,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "M",
+        "energyCost": [
+          {
+            "energyType": "Metal"
+          }
+        ],
         "name": "Pierce",
         "effect": "",
         "power": "30",
@@ -5128,7 +6388,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "MM",
+        "energyCost": [
+          {
+            "energyType": "Metal"
+          },
+          {
+            "energyType": "Metal"
+          }
+        ],
         "name": "Metal Claw",
         "effect": "",
         "power": "70",
@@ -5156,7 +6423,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "M",
+        "energyCost": [
+          {
+            "energyType": "Metal"
+          }
+        ],
         "name": "Amass",
         "effect": "Take 1 [M] Energy from your Energy Zone and attach it to this Pokémon.",
         "power": null,
@@ -5189,7 +6460,20 @@
     ],
     "attacks": [
       {
-        "cost": "MMMC",
+        "energyCost": [
+          {
+            "energyType": "Metal"
+          },
+          {
+            "energyType": "Metal"
+          },
+          {
+            "energyType": "Metal"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Heavy Impact",
         "effect": "",
         "power": "120",
@@ -5217,7 +6501,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WL",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Ram",
         "effect": "",
         "power": "40",
@@ -5245,7 +6536,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WLC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Tail Smack",
         "effect": "",
         "power": "80",
@@ -5273,7 +6574,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WLCC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Draco Meteor",
         "effect": "1 of your opponent's Pokémon is chosen at random 4 times. For each time a Pokémon was chosen, do 50 damage to it.",
         "power": null,
@@ -5301,7 +6615,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Gust",
         "effect": "",
         "power": "10",
@@ -5329,7 +6647,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Gust",
         "effect": "",
         "power": "30",
@@ -5362,7 +6684,14 @@
     ],
     "attacks": [
       {
-        "cost": "CC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Wing Attack",
         "effect": "",
         "power": "70",
@@ -5390,7 +6719,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Gnaw",
         "effect": "",
         "power": "20",
@@ -5418,7 +6751,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Bite",
         "effect": "",
         "power": "40",
@@ -5446,7 +6783,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Peck",
         "effect": "",
         "power": "20",
@@ -5474,7 +6815,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Drill Run",
         "effect": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon.",
         "power": "50",
@@ -5502,7 +6850,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Pound",
         "effect": "",
         "power": "30",
@@ -5530,7 +6885,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Hyper Voice",
         "effect": "",
         "power": "60",
@@ -5558,7 +6920,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Sleepy Song",
         "effect": "Your opponent's Active Pokémon is now Asleep.",
         "power": "80",
@@ -5586,7 +6958,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Pay Day",
         "effect": "Draw 1 card.",
         "power": "10",
@@ -5614,7 +6990,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Shadow Claw",
         "effect": "Flip a coin. If heads, discard a random card from your opponent's hand.",
         "power": "40",
@@ -5642,7 +7025,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Leek Slap",
         "effect": "",
         "power": "40",
@@ -5670,7 +7057,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Peck",
         "effect": "",
         "power": "20",
@@ -5698,7 +7089,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Drill Peck",
         "effect": "",
         "power": "40",
@@ -5726,7 +7121,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Continuous Lick",
         "effect": "Flip a coin until you get tails. This attack does 60 damage for each heads.",
         "power": "60x",
@@ -5754,7 +7159,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Gentle Slap",
         "effect": "",
         "power": "60",
@@ -5782,7 +7197,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Dizzy Punch",
         "effect": "Flip 2 coins. This attack does 30 damage for each heads.",
         "power": "30x",
@@ -5810,7 +7229,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Horn Attack",
         "effect": "",
         "power": "50",
@@ -5838,7 +7264,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Copy Anything",
         "effect": "Choose 1 of your opponent's Pokémon's attacks and use it as this attack. If this Pokémon doesn't have the necessary Energy to use that attack, this attack does nothing.",
         "power": null,
@@ -5866,7 +7296,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Tackle",
         "effect": "",
         "power": "20",
@@ -5894,7 +7328,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Tackle",
         "effect": "",
         "power": "20",
@@ -5922,7 +7360,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Tackle",
         "effect": "",
         "power": "20",
@@ -5955,7 +7397,11 @@
     ],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Sharpen",
         "effect": "",
         "power": "20",
@@ -5983,7 +7429,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Primal Wingbeat",
         "effect": "Flip a coin. If heads, your opponent shuffles their Active Pokémon back into their deck.",
         "power": null,
@@ -6011,7 +7464,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Rollout",
         "effect": "",
         "power": "70",
@@ -6039,7 +7505,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Tail Smack",
         "effect": "",
         "power": "20",
@@ -6067,7 +7537,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Do the Wave",
         "effect": "This attack does 30 damage for each of your Benched Pokémon.",
         "power": "30x",
@@ -6095,7 +7575,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Tackle",
         "effect": "",
         "power": "30",
@@ -6123,7 +7610,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Rolling Tackle",
         "effect": "",
         "power": "80",
@@ -6371,7 +7868,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Vine Whip",
         "effect": "",
         "power": "40",
@@ -6399,7 +7903,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Drool",
         "effect": "",
         "power": "40",
@@ -6427,7 +7938,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GG",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Double Horn",
         "effect": "Flip 2 coins. This attack does 50 damage for each heads.",
         "power": "50x",
@@ -6455,7 +7973,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "R",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Ember",
         "effect": "Discard a [R] Energy from this Pokémon.",
         "power": "30",
@@ -6483,7 +8005,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "R",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Fire Mane",
         "effect": "",
         "power": "40",
@@ -6511,7 +8037,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "W",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Water Gun",
         "effect": "",
         "power": "20",
@@ -6539,7 +8069,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WWWW",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Hyper Beam",
         "effect": "Discard a random Energy from your opponent's Active Pokémon.",
         "power": "100",
@@ -6567,7 +8110,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "W",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Hydro Pump",
         "effect": "If this Pokémon has at least 3 extra [W] Energy attached, this attack does 70 more damage.",
         "power": "20+",
@@ -6595,7 +8142,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "LL",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Electro Ball",
         "effect": "",
         "power": "70",
@@ -6623,7 +8177,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PCC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Psychic",
         "effect": "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
         "power": "60+",
@@ -6651,7 +8215,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Tail Whap",
         "effect": "",
         "power": "30",
@@ -6679,7 +8250,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "F",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Mud-Slap",
         "effect": "",
         "power": "-20",
@@ -6707,7 +8282,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Growl",
         "effect": "During your opponent's next turn, attacks used by the Defending Pokémon do -20 damage.",
         "power": null,
@@ -6735,7 +8314,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "DDC",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          },
+          {
+            "energyType": "Darkness"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Lovestrike",
         "effect": "This attack does 50 more damage for each of your Benched Nidoking.",
         "power": "80+",
@@ -6763,7 +8352,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "DDC",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          },
+          {
+            "energyType": "Darkness"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Poison Horn",
         "effect": "Your opponent's Active Pokémon is now Poisoned.",
         "power": "90",
@@ -6791,7 +8390,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Wing Attack",
         "effect": "",
         "power": "40",
@@ -6824,7 +8427,11 @@
     ],
     "attacks": [
       {
-        "cost": "D",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          }
+        ],
         "name": "Tackle",
         "effect": "",
         "power": "30",
@@ -6852,7 +8459,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WLCC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Draco Meteor",
         "effect": "1 of your opponent's Pokémon is chosen at random 4 times. For each time a Pokémon was chosen, do 50 damage to it.",
         "power": null,
@@ -6885,7 +8505,14 @@
     ],
     "attacks": [
       {
-        "cost": "CC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Wing Attack",
         "effect": "",
         "power": "70",
@@ -6913,7 +8540,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Pay Day",
         "effect": "Draw 1 card.",
         "power": "10",
@@ -6941,7 +8572,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Copy Anything",
         "effect": "Choose 1 of your opponent's Pokémon's attacks and use it as this attack. If this Pokémon doesn't have the necessary Energy to use that attack, this attack does nothing.",
         "power": null,
@@ -6969,7 +8604,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Tackle",
         "effect": "",
         "power": "20",
@@ -7002,7 +8641,11 @@
     ],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Sharpen",
         "effect": "",
         "power": "20",
@@ -7030,7 +8673,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Rollout",
         "effect": "",
         "power": "70",
@@ -7058,14 +8714,37 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GCC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Razor Leaf",
         "effect": "",
         "power": "60",
         "variableDamage": null
       },
       {
-        "cost": "GGCC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Giant Bloom",
         "effect": "Heal 30 damage from this Pokémon.",
         "power": "100",
@@ -7093,7 +8772,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Tropical Swing",
         "effect": "Flip a coin. If heads, this attack does 40 more damage.",
         "power": "40+",
@@ -7121,14 +8804,37 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Slash",
         "effect": "",
         "power": "60",
         "variableDamage": null
       },
       {
-        "cost": "RRCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Crimson Storm",
         "effect": "Discard 2 [R] Energy from this Pokémon.",
         "power": "200",
@@ -7156,7 +8862,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RRC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Inferno Onrush",
         "effect": "This Pokémon also does 20 damage to itself.",
         "power": "120",
@@ -7184,14 +8900,28 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "R",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Inferno Dance",
         "effect": "Flip 3 coins. Take an amount of [R] Energy from your Energy Zone equal to the number of heads and attach it to your Benched [R] Pokémon in any way you like.",
         "power": null,
         "variableDamage": null
       },
       {
-        "cost": "RCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Heat Blast",
         "effect": "",
         "power": "70",
@@ -7219,14 +8949,31 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Surf",
         "effect": "",
         "power": "40",
         "variableDamage": null
       },
       {
-        "cost": "WWC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Hydro Bazooka",
         "effect": "If this Pokémon has at least 2 extra [W] Energy attached, this attack does 60 more damage.",
         "power": "100+",
@@ -7254,7 +9001,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WW",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Hydro Splash",
         "effect": "",
         "power": "90",
@@ -7282,14 +9036,31 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Ice Wing",
         "effect": "",
         "power": "40",
         "variableDamage": null
       },
       {
-        "cost": "WWW",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Blizzard",
         "effect": "This attack also does 10 damage to each of your opponent's Benched Pokémon.",
         "power": "80",
@@ -7317,7 +9088,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "LL",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Circle Circuit",
         "effect": "This attack does 30 damage for each of your Benched [L] Pokémon.",
         "power": "30x",
@@ -7345,14 +9123,28 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Peck",
         "effect": "",
         "power": "20",
         "variableDamage": null
       },
       {
-        "cost": "LLL",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Thundering Hurricane",
         "effect": "Flip 4 coins. This attack does 50 damage for each heads.",
         "power": "50x",
@@ -7385,7 +9177,17 @@
     ],
     "attacks": [
       {
-        "cost": "PPP",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Spooky Shot",
         "effect": "",
         "power": "100",
@@ -7413,14 +9215,34 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Psychic Sphere",
         "effect": "",
         "power": "50",
         "variableDamage": null
       },
       {
-        "cost": "PPCC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Psydrive",
         "effect": "Discard 2 [P] Energy from this Pokémon.",
         "power": "150",
@@ -7448,7 +9270,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FFF",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Mega Punch",
         "effect": "",
         "power": "120",
@@ -7476,7 +9308,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FF",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Bonemerang",
         "effect": "Flip 2 coins. This attack does 80 damage for each heads.",
         "power": "80x",
@@ -7504,7 +9343,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Sleepy Song",
         "effect": "Your opponent's Active Pokémon is now Asleep.",
         "power": "80",
@@ -7692,14 +9541,28 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "R",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Inferno Dance",
         "effect": "Flip 3 coins. Take an amount of [R] Energy from your Energy Zone equal to the number of heads and attach it to your Benched [R] Pokémon in any way you like.",
         "power": null,
         "variableDamage": null
       },
       {
-        "cost": "RCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Heat Blast",
         "effect": "",
         "power": "70",
@@ -7727,14 +9590,31 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Ice Wing",
         "effect": "",
         "power": "40",
         "variableDamage": null
       },
       {
-        "cost": "WWW",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Blizzard",
         "effect": "This attack also does 10 damage to each of your opponent's Benched Pokémon.",
         "power": "80",
@@ -7762,14 +9642,28 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Peck",
         "effect": "",
         "power": "20",
         "variableDamage": null
       },
       {
-        "cost": "LLL",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Thundering Hurricane",
         "effect": "Flip 4 coins. This attack does 50 damage for each heads.",
         "power": "50x",
@@ -7802,7 +9696,17 @@
     ],
     "attacks": [
       {
-        "cost": "PPP",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Spooky Shot",
         "effect": "",
         "power": "100",
@@ -7830,7 +9734,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FFF",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Mega Punch",
         "effect": "",
         "power": "120",
@@ -7858,7 +9772,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Sleepy Song",
         "effect": "Your opponent's Active Pokémon is now Asleep.",
         "power": "80",
@@ -7886,14 +9810,37 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Slash",
         "effect": "",
         "power": "60",
         "variableDamage": null
       },
       {
-        "cost": "RRCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Crimson Storm",
         "effect": "Discard 2 [R] Energy from this Pokémon.",
         "power": "200",
@@ -7921,7 +9868,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "LL",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Circle Circuit",
         "effect": "This attack does 30 damage for each of your Benched [L] Pokémon.",
         "power": "30x",
@@ -7949,14 +9903,34 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Psychic Sphere",
         "effect": "",
         "power": "50",
         "variableDamage": null
       },
       {
-        "cost": "PPCC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Psydrive",
         "effect": "Discard 2 [P] Energy from this Pokémon.",
         "power": "150",
@@ -7984,7 +9958,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Psy Report",
         "effect": "Your opponent reveals their hand.",
         "power": "20",
@@ -8012,14 +9990,37 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Slash",
         "effect": "",
         "power": "60",
         "variableDamage": null
       },
       {
-        "cost": "RRCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Crimson Storm",
         "effect": "Discard 2 [R] Energy from this Pokémon.",
         "power": "200",
@@ -8047,7 +10048,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "LL",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Circle Circuit",
         "effect": "This attack does 30 damage for each of your Benched [L] Pokémon.",
         "power": "30x",
@@ -8075,14 +10083,34 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Psychic Sphere",
         "effect": "",
         "power": "50",
         "variableDamage": null
       },
       {
-        "cost": "PPCC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Psydrive",
         "effect": "Discard 2 [P] Energy from this Pokémon.",
         "power": "150",
@@ -8270,7 +10298,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Gnaw",
         "effect": "",
         "power": "20",
@@ -8298,7 +10330,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PPCC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Power Blast",
         "effect": "Discard 2 [P] Energy from this Pokémon.",
         "power": "120",
@@ -8326,7 +10371,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Gentle Slap",
         "effect": "",
         "power": "60",
@@ -8354,7 +10409,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Pay Day",
         "effect": "Draw 1 card.",
         "power": "10",
@@ -8387,7 +10446,17 @@
     ],
     "attacks": [
       {
-        "cost": "GCC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Gust",
         "effect": "",
         "power": "60",
@@ -8415,7 +10484,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WWC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Bubble Drain",
         "effect": "Heal 20 damage from this Pokémon.",
         "power": "80",
@@ -8443,7 +10522,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Gnaw",
         "effect": "",
         "power": "20",
@@ -8471,7 +10554,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Slap",
         "effect": "",
         "power": "20",
@@ -8499,7 +10586,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "F",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Reckless Charge",
         "effect": "This Pokémon also does 10 damage to itself.",
         "power": "30",
@@ -8527,7 +10618,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GGCC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Mega Drain",
         "effect": "Heal 30 damage from this Pokémon.",
         "power": "80",
@@ -8560,7 +10664,14 @@
     ],
     "attacks": [
       {
-        "cost": "WC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Mist Slash",
         "effect": "",
         "power": "60",
@@ -8588,7 +10699,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Surprise Attack",
         "effect": "Flip a coin. If tails, this attack does nothing.",
         "power": "50",
@@ -8616,7 +10731,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FFF",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Land Crush",
         "effect": "",
         "power": "70",
@@ -8644,7 +10769,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Sing",
         "effect": "Your opponent's Active Pokémon is now Asleep.",
         "power": null,
@@ -8672,7 +10801,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Vine Whip",
         "effect": "",
         "power": "40",
@@ -8700,7 +10836,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Lightning Ball",
         "effect": "",
         "power": "20",
@@ -8728,14 +10868,28 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "R",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Inferno Dance",
         "effect": "Flip 3 coins. Take an amount of [R] Energy from your Energy Zone equal to the number of heads and attach it to your Benched [R] Pokémon in any way you like.",
         "power": null,
         "variableDamage": null
       },
       {
-        "cost": "RCC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Heat Blast",
         "effect": "",
         "power": "70",
@@ -8763,7 +10917,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Gnaw",
         "effect": "",
         "power": "20",
@@ -8791,7 +10949,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Tackle",
         "effect": "",
         "power": "20",
@@ -8819,7 +10981,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RRC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Volcanic Ash",
         "effect": "Discard 2 [R] Energy from this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon.",
         "power": null,
@@ -8847,7 +11019,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WWC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Hydro Pump",
         "effect": "If this Pokémon has at least 2 extra [W] Energy attached, this attack does 60 more damage.",
         "power": "80+",
@@ -8875,7 +11057,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Growl",
         "effect": "During your opponent's next turn, attacks used by the Defending Pokémon do −20 damage.",
         "power": null,
@@ -8903,7 +11089,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Do the Wave",
         "effect": "This attack does 30 damage for each of your Benched Pokémon.",
         "power": "30x",
@@ -8931,7 +11127,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "R",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Ember",
         "effect": "Discard a [R] Energy from this Pokémon.",
         "power": "30",
@@ -8959,7 +11159,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "W",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Water Gun",
         "effect": "",
         "power": "20",
@@ -8987,7 +11191,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Growth Spurt",
         "effect": "Take a [G] Energy from your Energy Zone and attach it to this Pokémon.",
         "power": null,
@@ -9015,7 +11223,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GCCC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Psychic",
         "effect": "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
         "power": "80+",
@@ -9043,7 +11264,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Powerful Bloom",
         "effect": "Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage for each heads.",
         "power": "50x",
@@ -9071,7 +11299,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Vine Whip",
         "effect": "",
         "power": "40",
@@ -9099,7 +11334,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Vine Whip",
         "effect": "",
         "power": "50",
@@ -9132,7 +11374,20 @@
     ],
     "attacks": [
       {
-        "cost": "GCCC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Solar Beam",
         "effect": "",
         "power": "70",
@@ -9160,7 +11415,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Ram",
         "effect": "",
         "power": "20",
@@ -9188,7 +11447,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GG",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Flickering Spores",
         "effect": "Your opponent's Active Pokémon is now Asleep.",
         "power": "50",
@@ -9216,7 +11482,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "G",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          }
+        ],
         "name": "Energy Whip",
         "effect": "If this Pokémon has at least 3 extra [G] Energy attached, this attack does 70 more damage.",
         "power": "20+",
@@ -9244,7 +11514,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "R",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Stomp",
         "effect": "Flip a coin. If heads, this attack does 30 more damage.",
         "power": "10+",
@@ -9272,7 +11546,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Rising Lunge",
         "effect": "Flip a coin. If heads, this attack does 60 more damage.",
         "power": "40+",
@@ -9300,7 +11581,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RR",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Fire Blast",
         "effect": "Discard 2 [R] Energy from this Pokémon.",
         "power": "80",
@@ -9328,7 +11616,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Combustion",
         "effect": "",
         "power": "30",
@@ -9356,7 +11651,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "RRC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Volcanic Ash",
         "effect": "Discard 2 [R] Energy from this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon.",
         "power": null,
@@ -9384,7 +11689,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Venoshock",
         "effect": "If your opponent's Active Pokémon is Poisoned, this attack does 40 more damage.",
         "power": "10+",
@@ -9412,7 +11721,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "R",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          }
+        ],
         "name": "Poison Claws",
         "effect": "Your opponent's Active Pokémon is now Poisoned.",
         "power": "30",
@@ -9440,7 +11753,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "W",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Leap Out",
         "effect": "Switch this Pokémon with 1 of your Benched Pokémon.",
         "power": null,
@@ -9468,7 +11785,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WWWC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Rampaging Whirlpool",
         "effect": "Discard a random Energy from among the Energy attached to all Pokémon (both yours and your opponent's).",
         "power": "140",
@@ -9501,7 +11831,17 @@
     ],
     "attacks": [
       {
-        "cost": "WCC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Wave Splash",
         "effect": "",
         "power": "60",
@@ -9529,7 +11869,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "W",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Water Gun",
         "effect": "",
         "power": "20",
@@ -9557,7 +11901,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WW",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Aqua Liner",
         "effect": "This attack does 50 damage to 1 of your opponent's Benched Pokémon.",
         "power": null,
@@ -9585,7 +11936,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Bite",
         "effect": "",
         "power": "30",
@@ -9613,7 +11971,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WWW",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          }
+        ],
         "name": "Crunch",
         "effect": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon.",
         "power": "70",
@@ -9641,7 +12009,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WWC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Dive",
         "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon.",
         "power": "60",
@@ -9669,7 +12047,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Circle Circuit",
         "effect": "This attack does 10 damage for each of your Benched [L] Pokémon.",
         "power": "10x",
@@ -9697,7 +12079,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "LLL",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Gigashock",
         "effect": "This attack also does 20 damage to each of your opponent's Benched Pokémon.",
         "power": "60",
@@ -9725,7 +12117,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "LL",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Thunder Spear",
         "effect": "This attack does 40 damage to 1 of your opponent's Pokémon.",
         "power": null,
@@ -9753,7 +12152,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Bug Bite",
         "effect": "",
         "power": "30",
@@ -9781,7 +12184,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "LL",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          },
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Electroweb",
         "effect": "During your opponent's next turn, the Defending Pokémon can't retreat.",
         "power": "70",
@@ -9809,7 +12219,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Thunder Shock",
         "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
         "power": "10",
@@ -9837,7 +12251,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Psy Report",
         "effect": "Your opponent reveals their hand.",
         "power": "20",
@@ -9865,14 +12283,28 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Psyshot",
         "effect": "",
         "power": "20",
         "variableDamage": null
       },
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Genome Hacking",
         "effect": "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
         "power": null,
@@ -9900,7 +12332,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Spike Draw",
         "effect": "Draw a card.",
         "power": "10",
@@ -9928,7 +12364,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Headbutt",
         "effect": "",
         "power": "20",
@@ -9956,7 +12396,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Mind Jack",
         "effect": "This attack does 20 more damage for each of your opponent's Benched Pokémon.",
         "power": "10+",
@@ -9984,7 +12428,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Hypnotic Gaze",
         "effect": "Your opponent's Active Pokémon is now Asleep.",
         "power": null,
@@ -10012,7 +12460,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Leaf Drain",
         "effect": "Heal 10 damage from this Pokémon.",
         "power": "40",
@@ -10040,7 +12492,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PP",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Bloomshine",
         "effect": "Heal 20 damage from each of your Pokémon.",
         "power": "80",
@@ -10068,7 +12527,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Fairy Wind",
         "effect": "",
         "power": "20",
@@ -10096,7 +12559,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "PC",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Magical Shot",
         "effect": "",
         "power": "60",
@@ -10124,7 +12594,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "F",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Focus Fist",
         "effect": "Flip a coin. If tails, this attack does nothing.",
         "power": "50",
@@ -10152,7 +12626,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "F",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Punch",
         "effect": "",
         "power": "50",
@@ -10180,7 +12658,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FC",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Light Punch",
         "effect": "",
         "power": "30",
@@ -10208,7 +12693,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FC",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Lunge Out",
         "effect": "",
         "power": "40",
@@ -10236,7 +12728,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FFFC",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Guard Press",
         "effect": "During your opponent's next turn, this Pokémon takes −30 damage from attacks.",
         "power": "120",
@@ -10269,7 +12774,14 @@
     ],
     "attacks": [
       {
-        "cost": "FC",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Land Crush",
         "effect": "",
         "power": "80",
@@ -10297,7 +12809,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FC",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Revenge",
         "effect": "If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 60 more damage.",
         "power": "40+",
@@ -10325,7 +12844,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FFF",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Fighting"
+          }
+        ],
         "name": "Mega Kick",
         "effect": "",
         "power": "90",
@@ -10353,7 +12882,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "D",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          }
+        ],
         "name": "Division",
         "effect": "Put 1 random Koffing from your deck onto your Bench.",
         "power": null,
@@ -10381,7 +12914,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "DD",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          },
+          {
+            "energyType": "Darkness"
+          }
+        ],
         "name": "Smokescreen",
         "effect": "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen.",
         "power": "50",
@@ -10409,7 +12949,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "D",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          }
+        ],
         "name": "Scratch",
         "effect": "",
         "power": "20",
@@ -10437,7 +12981,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "D",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          }
+        ],
         "name": "Slash",
         "effect": "",
         "power": "40",
@@ -10465,7 +13013,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "D",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          }
+        ],
         "name": "Ram",
         "effect": "",
         "power": "20",
@@ -10493,7 +13045,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "D",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          }
+        ],
         "name": "Poison Sting",
         "effect": "Your opponent's Active Pokémon is now Poisoned.",
         "power": "20",
@@ -10521,7 +13077,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "DC",
+        "energyCost": [
+          {
+            "energyType": "Darkness"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Venoshock",
         "effect": "If your opponent's Active Pokémon is Poisoned, this attack does 50 more damage.",
         "power": "70+",
@@ -10554,7 +13117,17 @@
     ],
     "attacks": [
       {
-        "cost": "RWC",
+        "energyCost": [
+          {
+            "energyType": "Fire"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Dragon Claw",
         "effect": "",
         "power": "90",
@@ -10582,7 +13155,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Flap",
         "effect": "",
         "power": "20",
@@ -10610,7 +13187,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Wing Attack",
         "effect": "",
         "power": "50",
@@ -10638,7 +13225,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Scattering Cyclone",
         "effect": "This attack does 20 more damage for each of your opponent's Benched Pokémon.",
         "power": "80+",
@@ -10666,7 +13263,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Fighting Tackle",
         "effect": "If your opponent's Active Pokémon is a Pokémon more damage.",
         "power": "40+",
@@ -10694,7 +13301,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Continuous Steps",
         "effect": "Flip a coin until you get tails. This attack does 20 damage for each heads.",
         "power": "20x",
@@ -10722,7 +13333,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Mimic",
         "effect": "Shuffle your hand into your deck. Draw a card for each card in your opponent's hand.",
         "power": null,
@@ -10870,7 +13485,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GCCC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Psychic",
         "effect": "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
         "power": "80+",
@@ -10903,7 +13531,20 @@
     ],
     "attacks": [
       {
-        "cost": "GCCC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Solar Beam",
         "effect": "",
         "power": "70",
@@ -10931,7 +13572,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "C",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Venoshock",
         "effect": "If your opponent's Active Pokémon is Poisoned, this attack does 40 more damage.",
         "power": "10+",
@@ -10964,7 +13609,17 @@
     ],
     "attacks": [
       {
-        "cost": "WCC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Wave Splash",
         "effect": "",
         "power": "60",
@@ -10992,7 +13647,11 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "L",
+        "energyCost": [
+          {
+            "energyType": "Lightning"
+          }
+        ],
         "name": "Thunder Shock",
         "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
         "power": "10",
@@ -11020,7 +13679,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "FC",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Revenge",
         "effect": "If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 60 more damage.",
         "power": "40+",
@@ -11048,7 +13714,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Powerful Bloom",
         "effect": "Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage for each heads.",
         "power": "50x",
@@ -11076,7 +13749,20 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "WWWC",
+        "energyCost": [
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Water"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Rampaging Whirlpool",
         "effect": "Discard a random Energy from among the Energy attached to all Pokémon (both yours and your opponent's).",
         "power": "140",
@@ -11104,14 +13790,28 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Psyshot",
         "effect": "",
         "power": "20",
         "variableDamage": null
       },
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Genome Hacking",
         "effect": "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
         "power": null,
@@ -11144,7 +13844,14 @@
     ],
     "attacks": [
       {
-        "cost": "FC",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Land Crush",
         "effect": "",
         "power": "80",
@@ -11172,7 +13879,17 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Scattering Cyclone",
         "effect": "This attack does 20 more damage for each of your opponent's Benched Pokémon.",
         "power": "80+",
@@ -11260,14 +13977,28 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Psyshot",
         "effect": "",
         "power": "20",
         "variableDamage": null
       },
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Genome Hacking",
         "effect": "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
         "power": null,
@@ -11300,7 +14031,14 @@
     ],
     "attacks": [
       {
-        "cost": "FC",
+        "energyCost": [
+          {
+            "energyType": "Fighting"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Land Crush",
         "effect": "",
         "power": "80",
@@ -11328,7 +14066,14 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "GC",
+        "energyCost": [
+          {
+            "energyType": "Grass"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Powerful Bloom",
         "effect": "Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage for each heads.",
         "power": "50x",
@@ -11356,14 +14101,28 @@
     "abilites": [],
     "attacks": [
       {
-        "cost": "P",
+        "energyCost": [
+          {
+            "energyType": "Psychic"
+          }
+        ],
         "name": "Psyshot",
         "effect": "",
         "power": "20",
         "variableDamage": null
       },
       {
-        "cost": "CCC",
+        "energyCost": [
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          },
+          {
+            "energyType": "Colorless"
+          }
+        ],
         "name": "Genome Hacking",
         "effect": "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
         "power": null,

@@ -10,7 +10,7 @@ import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
-public class PokemonCard {
+public class Card {
     private String cardNumber;
     private String cardType;
     private String cardSubType;

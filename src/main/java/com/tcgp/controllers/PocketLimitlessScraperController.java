@@ -1,6 +1,6 @@
 package com.tcgp.controllers;
 
-import com.tcgp.models.PokemonCard;
+import com.tcgp.models.Card;
 import com.tcgp.services.PocketLimitlessScraperService;
 import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,7 +22,7 @@ public class PocketLimitlessScraperController {
 
     @GetMapping("/cards")
     @Operation(summary = "Endpoint para obtener cartas de Pokémon en formarto JSON")
-    public List<PokemonCard> scrapeCards() throws IOException {
+    public List<Card> scrapeCards() throws IOException {
             return scraperService.scrapeAllCards();
     }
 }
